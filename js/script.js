@@ -92,7 +92,7 @@ function calcFinalWinner() {
             winnerTotal = 'Human';
         }
         alert("The " + winnerTotal + " has won it all!");
-        setToZero();7
+        setToZero();
     }
 }
 
