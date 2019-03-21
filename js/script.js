@@ -23,6 +23,12 @@ function promptChoice() {
     yourChoice = firstLetter.toUpperCase() + yourChoice.substr(1,n);
 };
 
+function playerChoice(choice) {
+    yourChoice = choice;
+    console.log(yourChoice);
+    playGame();
+}
+
 function calcWinner() {
     if (computerChoice == 'Rock') {
         computerRock();
@@ -99,17 +105,30 @@ function setToZero() {
     humanWins = 0;
 }
 
+// function playGame() {
+//     yourChoice = '';
+//     computerChoice = '';
+//     winner = '';
+//     computerPlay();
+//     promptChoice();
+//     if (yourChoice == 'Rock' || yourChoice == 'Paper' || yourChoice == 'Scissors') {
+//         calcWinner();
+//         printData();
+//         calcFinalWinner();
+//     } else {
+//         alert("You did not enter rock, paper, or scissors.");
+//     };
+// }
+
 function playGame() {
-    yourChoice = '';
-    computerChoice = '';
-    winner = '';
-    computerPlay();
-    promptChoice();
-    if (yourChoice == 'Rock' || yourChoice == 'Paper' || yourChoice == 'Scissors') {
-        calcWinner();
-        printData();
-        calcFinalWinner();
-    } else {
-        alert("You did not enter rock, paper, or scissors.");
-    };
+  computerChoice = '';
+  winner = '';
+  computerPlay();
+  if (yourChoice == 'Rock' || yourChoice == 'Paper' || yourChoice == 'Scissors') {
+      calcWinner();
+      printData();
+      calcFinalWinner();
+  } else {
+      alert("You did not enter rock, paper, or scissors.");
+  };
 }

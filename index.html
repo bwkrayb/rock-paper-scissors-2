@@ -4,12 +4,17 @@
       <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
-    <p>First to 5 Rock Paper Scissors!</p>
-    <button onclick="playGame()">Go!</button>
+    <h1>First to 5 Rock Paper Scissors!</h1>
     <div>Computer wins: <span id="compWins"></span> | Human wins: <span id="humanWins"></span></div>
     <div>Computer: <span id="computer"></span></div>
     <div>You: <span id="human"></span></div>
     <div>Who won?: <span id="winner"></span></div>
+    
+    <div class='button-group'>
+      <button onclick="playerChoice('Rock')">Rock</button>
+      <button onclick="playerChoice('Paper')">Paper</button>
+      <button onclick="playerChoice('Scissors')">Scissors</button>
+    </div>
   </body>
   <script src="js/script.js"></script>
 </html>
