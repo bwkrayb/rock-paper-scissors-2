@@ -71,3 +71,18 @@ body {
   width:100%;
   text-align: center;
 }
+
+#rock-image {
+  height: 100px;
+  width: 100px;
+}
+
+#paper-image {
+  height: 100px;
+  width: 100px;
+}
+
+#scissor-image {
+  height: 100px;
+  width: 100px;
+}
