@@ -38,10 +38,18 @@ body {
   text-align: center;
 }
 
+#computer {
+  font-size: 32px;
+}
+
 .player-choice-group {
   grid-column: 2 / 3;
   width:100%;
   text-align: center;
+}
+
+#human {
+  font-size: 32px;
 }
 
 .computer-score-group {
