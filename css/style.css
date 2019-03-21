@@ -1,0 +1,41 @@
+body {
+  display:grid;
+  min-height:100vh;
+  grid-template-rows: 100px 50px 50px 1fr 200px;
+  grid-template-columns: 1fr 1fr;
+  margin: 0px 0px 0px 0px;
+}
+
+.head-group {
+  grid-column: 1 / 3;
+  grid-row: 1 / 2;
+}
+
+.computer-group {
+  grid-column: 1 / 2;
+}
+
+.player-group {
+  grid-column: 2 / 3;
+}
+
+.computer-choice-group {
+  grid-column: 1 / 2;
+}
+
+.player-choice-group {
+  grid-column: 2 / 3;
+}
+
+.computer-score-group {
+  grid-column: 1 / 2;
+}
+
+.player-score-group {
+  grid-column: 2 / 3;
+}
+
+.button-group {
+  grid-column: 1 / 3;
+  grid-row: 
+}
