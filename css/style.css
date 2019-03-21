@@ -1,7 +1,7 @@
 body {
   display:grid;
   min-height:100vh;
-  grid-template-rows: .5fr .2fr .2fr .5fr 3fr 2.5fr;
+  grid-template-rows: .5fr .2fr .2fr .5fr 2.5fr 2.5fr;
   grid-template-columns: 1fr 1fr;
   margin: 0px 0px 0px 0px;
   font-family: 'Lilita One', cursive;
